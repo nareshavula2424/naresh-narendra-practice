@@ -13,7 +13,13 @@ public class AddTwoNumbers {
         MathOperations mathOperations = new MathOperations();
         int res = mathOperations.sumOfTwoNumbers(a,b);
         int res1 = mathOperations.multiplicationOfTwoNumbers(a,b);
+        int res2 = mathOperations.substractionOfTwoNumbers(a,b);
+        int res3 = mathOperations.divisionOfTwoNumbers(a,b);
         System.out.println("The sum of two numbers " +res);
         System.out.println("The multiplication of two numbers " +res1);
+        System.out.println("substraction of two numbers " +res2);
+        System.out.println("division of two numbers " +res3);
+
+
     }
 }

@@ -8,5 +8,11 @@ public class MathOperations {
     public int multiplicationOfTwoNumbers(int a,int b){
         return a*b;
     }
+    public int substractionOfTwoNumbers(int a,int b){
+        return a-b;
+}
 
+    public int divisionOfTwoNumbers(int a,int b){
+        return a/b;
+}
 }
